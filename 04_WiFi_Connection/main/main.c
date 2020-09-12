@@ -8,7 +8,7 @@
 /*
  * WiFi Parameter
  */
-#define SSID		"pi"
+#define SSID		"pii"
 #define PASSWORD 	"123456789"
 
 
@@ -22,6 +22,7 @@ void app_main(void)
 
   wifi_init_config_t wifi_config = WIFI_INIT_CONFIG_DEFAULT();
   ESP_ERROR_CHECK(esp_wifi_init(&wifi_config));
+  ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
 
   wifi_config_t config = {
 	  .sta = {
