@@ -1,1 +1,5 @@
-/build/
+.metadata
+.cproject
+.gdbinit.ci
+.project
+build
