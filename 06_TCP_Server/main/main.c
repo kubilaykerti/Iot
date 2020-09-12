@@ -22,8 +22,8 @@
 /*
  *		WiFi Parameters
  */
-#define WIFI_SSID 	"SUPERONLINE-WiFi_5716"
-#define WIFI_PASS 	"KFNH4XMHNKEJ"
+#define WIFI_SSID 	"pi"
+#define WIFI_PASS 	"123456789"
 
 /*
  *		Group Event Handle
